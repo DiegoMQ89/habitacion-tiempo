@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Habitación del Tiempo</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body class="fade-in index">
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="La Habitación del Tiempo" />
+            </a>
+            <nav>
+                <div id="hamburger"><i class="fas fa-bars"></i></div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sedes.html">Sedes</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="register.html">Registrarse</a></li>
+                    <li><a href="login.html" class="btn-nav">Ingresar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="slider">
+            <div class="slides">
+                <!-- Radio buttons para control manual -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <!-- Slides -->
+                <div class="slide first">
+                    <img src="img/banner1.png" alt="Banner 1">
+                </div>
+                <div class="slide">
+                    <img src="img/banner2.png" alt="Banner 2">
+                </div>
+                <div class="slide">
+                    <img src="img/banner3.png" alt="Banner 3">
+                </div>
+                <div class="slide">
+                    <img src="img/banner4.png" alt="Banner 4">
+                </div>
+
+                <!-- Navegación automática -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+
+            <!-- Navegación manual -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 La Habitación del Tiempo</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -345,7 +345,7 @@ nav .nav-links a:hover {
 
 /* === HERO DE REGISTRO === */
 .register-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/public/img/register-hero.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/habitacion-tiempo/img/register-hero.jpeg') center/cover no-repeat;
     padding: 100px 20px;
     text-align: center;
     color: #fff;
@@ -466,7 +466,7 @@ nav .nav-links a:hover {
 
 /* === HERO DE LOGIN === */
 .login-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/public/img/login-hero.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/habitacion-tiempo/img/login-hero.jpg') center/cover no-repeat;
     padding: 100px 20px;
     text-align: center;
     color: #fff;
